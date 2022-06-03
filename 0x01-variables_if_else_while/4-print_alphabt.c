@@ -1,4 +1,4 @@
- #include <stdio.hi>
+ #include <stdio.h>
 
 /**
  * main - Prints the alphabet.
@@ -12,10 +12,8 @@ int main(void)
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(alp[i]
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
-i}
-
-
+}
