@@ -1,4 +1,4 @@
- #include <stdio.h>
+ #include <stdio.hi>
 
 /**
  * main - Prints the alphabet.
@@ -16,6 +16,6 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+i}
 
 
