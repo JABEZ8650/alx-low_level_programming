@@ -11,7 +11,7 @@ int main(void)
 
 	i = 48;
 	e = 48;
-
+	
 	while (e < 58)
 	{
 		i = 48;
@@ -25,8 +25,8 @@ int main(void)
 				{
 					break;
 				}
-			        putchar(',');
-			        putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			i++;
 		}
