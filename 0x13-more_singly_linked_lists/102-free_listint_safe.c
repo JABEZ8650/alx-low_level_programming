@@ -12,7 +12,6 @@ size_t free_listint_safe(listint_t **h)
 	size_t i;
 	int rest;
 
-
 	i = 0, actual = *h;
 	
 	while (actual)
