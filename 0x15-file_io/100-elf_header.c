@@ -51,11 +51,12 @@ void print_addr(char *ptr)
 	printf("\n");
 }
 
+
 /**
  * print_type - prints type
  * @ptr: magic.
  * Return: no return.
- *//
+ */
 void print_type(char *ptr)
 {
 	char type = ptr[16];
@@ -101,6 +102,7 @@ void print_osabi(char *ptr)
 
 	printf("  ABI Version:                       %d\n", ptr[8]);
 }
+
 
 /**
  * print_version - prints version
