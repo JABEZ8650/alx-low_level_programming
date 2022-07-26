@@ -51,7 +51,6 @@ void print_addr(char *ptr)
 	printf("\n");
 }
 
-
 /**
  * print_type - prints type
  * @ptr: magic.
